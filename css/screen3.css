@@ -1,0 +1,406 @@
+/* screen - screen3 */
+
+.screen3 {
+  align-items: flex-start;
+  display: flex;
+  width: 1440px;
+}
+
+#overlay-screen3 {
+  background-color: transparent;
+}
+
+.overlay .screen3 {
+  background-color: #00000000;
+}
+
+.screen3 .view {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  left: calc(50vw - 720.0px);
+  overflow: hidden;
+  position: relative;
+  top: calc(50vh - 512.0px);
+  width: 1440px;
+}
+
+.screen3 .overlap-group6 {
+  align-items: center;
+  background-color: var(--tundora-2);
+  display: flex;
+  height: 92px;
+  min-width: 1440px;
+  padding: 0 11px;
+}
+
+.screen3 .frame-1 {
+  height: 50px;
+  width: 300px;
+}
+
+.screen3 .text-container {
+  height: 46px;
+  margin-left: 839px;
+  margin-top: 4.0px;
+  position: relative;
+  width: 188px;
+}
+
+.screen3 .text-95 {
+  left: 0;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 63px;
+}
+
+.screen3 .text-96 {
+  left: 61px;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 127px;
+}
+
+.screen3 .text-97 {
+  cursor: pointer;
+  letter-spacing: -0.81px;
+  margin-left: 16px;
+  min-height: 42px;
+  text-align: center;
+  width: 63px;
+}
+
+.screen3 .overlap-group4 {
+  align-self: flex-end;
+  border-radius: 2px;
+  height: 30px;
+  margin-right: 66px;
+  margin-top: 69px;
+  position: relative;
+  width: 150px;
+}
+
+.screen3 .view-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px #0000003d;
+  display: flex;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  padding: 10.0px 24px;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.screen3 .caret {
+  height: 9px;
+  margin-left: 90px;
+  width: 12px;
+}
+
+.screen3 .phone {
+  height: 27px;
+  left: 10px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+
+.screen3 .overlap-group-container {
+  height: 734px;
+  margin-left: -5px;
+  margin-top: 2px;
+  position: relative;
+  width: 1390px;
+}
+
+.screen3 .overlap-group5 {
+  height: 734px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1390px;
+}
+
+.screen3 .frame-2 {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.screen3 .rectangle-18 {
+  align-items: flex-start;
+  display: flex;
+  height: 719px;
+  justify-content: center;
+  left: 273px;
+  min-width: 1117px;
+  position: absolute;
+  top: 15px;
+}
+
+.screen3 .overlap-group2 {
+  border-radius: 20px;
+  height: 723px;
+  margin-top: -2px;
+  position: relative;
+  width: 1121px;
+}
+
+.screen3 .group-2 {
+  height: 536px;
+  left: 55px;
+  position: absolute;
+  top: 68px;
+  width: 1010px;
+}
+
+.screen3 .rectangle-18-1 {
+  border-radius: 20px;
+  height: 723px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1121px;
+}
+
+.screen3 .contents1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  left: 326px;
+  min-width: 1019px;
+  position: absolute;
+  top: 83px;
+}
+
+.screen3 .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--alto);
+  display: flex;
+  height: 52px;
+  min-width: 1009px;
+  padding: 1px 0;
+}
+
+.screen3 .number {
+  height: 46px;
+  letter-spacing: 0.60px;
+  text-align: center;
+  width: 56px;
+}
+
+.screen3 .text-10 {
+  height: 49px;
+  letter-spacing: 0.60px;
+  margin-left: 48px;
+  text-align: center;
+  width: 222px;
+}
+
+.screen3 .date {
+  align-self: flex-start;
+  height: 44px;
+  letter-spacing: 0.60px;
+  margin-left: 48px;
+  margin-top: 1px;
+  text-align: center;
+  width: 148px;
+}
+
+.screen3 .text-10-1 {
+  height: 44px;
+  letter-spacing: 0.60px;
+  margin-bottom: 1px;
+  margin-left: 76px;
+  text-align: center;
+  width: 148px;
+}
+
+.screen3 .phone-1 {
+  align-self: center;
+  height: 44px;
+  letter-spacing: 0.60px;
+  margin-left: 84px;
+  text-align: center;
+  width: 148px;
+}
+
+.screen3 .contents2 {
+  align-items: flex-end;
+  display: flex;
+  height: 49px;
+  left: 326px;
+  min-width: 988px;
+  position: absolute;
+  top: 142px;
+}
+
+.screen3 .date-1 {
+  align-self: flex-start;
+  height: 44px;
+  letter-spacing: 0.60px;
+  margin-left: 48px;
+  text-align: center;
+  width: 148px;
+}
+
+.screen3 .phone-2 {
+  align-self: center;
+  height: 44px;
+  letter-spacing: 0.60px;
+  margin-bottom: 1.0px;
+  margin-left: 84px;
+  text-align: center;
+  width: 148px;
+}
+
+.screen3 .group-5 {
+  align-items: flex-end;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 316px;
+  min-width: 231px;
+  position: absolute;
+  top: 669px;
+}
+
+.screen3 .button {
+  height: 40px;
+  margin-bottom: -862px;
+  width: 100px;
+}
+
+.screen3 .button-1 {
+  height: 40px;
+  margin-bottom: -862px;
+  margin-left: 80px;
+  width: 100px;
+}
+
+.screen3 .group-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 43px;
+  left: 304px;
+  min-width: 990px;
+  position: absolute;
+  top: 38px;
+}
+
+.screen3 .no {
+  height: 37px;
+  letter-spacing: 0.80px;
+  text-align: center;
+  width: 88px;
+}
+
+.screen3 .text-106 {
+  align-self: flex-end;
+  height: 37px;
+  letter-spacing: 0.80px;
+  margin-left: 105px;
+  text-align: center;
+  width: 88px;
+}
+
+.screen3 .text {
+  height: 37px;
+  letter-spacing: 0.80px;
+  margin-left: 140px;
+  text-align: center;
+  width: 88px;
+}
+
+.screen3 .text-105 {
+  align-self: center;
+  height: 22px;
+  letter-spacing: 0.80px;
+  margin-bottom: 7.0px;
+  margin-left: 154px;
+  text-align: center;
+  width: 89px;
+}
+
+.screen3 .overlap-group1 {
+  border-radius: 20px;
+  height: 140px;
+  left: 57px;
+  position: absolute;
+  top: 71px;
+  width: 176px;
+}
+
+.screen3 .rectangle-28 {
+  height: 48px;
+  left: 1px;
+  position: absolute;
+  top: 92px;
+  width: 175px;
+}
+
+.screen3 .rectangle-19 {
+  border-radius: 20px;
+  height: 140px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 176px;
+}
+
+.screen3 .vector-2 {
+  height: 2px;
+  left: 1px;
+  position: absolute;
+  top: 47px;
+  width: 173px;
+}
+
+.screen3 .vector-3 {
+  height: 2px;
+  left: 1px;
+  position: absolute;
+  top: 91px;
+  width: 173px;
+}
+
+.screen3 .text-98 {
+  left: 20px;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 131px;
+}
+
+.screen3 .text-99 {
+  left: 20px;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 105px;
+  width: 131px;
+}
+
+.screen3 .text-100 {
+  left: 20px;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  width: 131px;
+}

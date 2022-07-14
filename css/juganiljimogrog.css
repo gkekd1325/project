@@ -1,0 +1,114 @@
+/* screen - juganiljimogrog */
+
+.juganiljimogrog {
+  align-items: flex-start;
+  display: flex;
+  width: 1440px;
+}
+
+#overlay-juganiljimogrog {
+  background-color: transparent;
+}
+
+.overlay .juganiljimogrog {
+  background-color: #00000000;
+}
+
+.juganiljimogrog .view {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  left: calc(50vw - 720.0px);
+  padding: 20px 289px;
+  position: relative;
+  top: calc(50vh - 512.0px);
+  width: 1440px;
+}
+
+.juganiljimogrog .overlap-group {
+  align-self: flex-end;
+  height: 470px;
+  position: relative;
+  width: 828px;
+}
+
+.juganiljimogrog .group-9 {
+  height: 282px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 828px;
+}
+
+.juganiljimogrog .rectangle-16 {
+  height: 132px;
+  left: 196px;
+  position: absolute;
+  top: 269px;
+  width: 346px;
+}
+
+.juganiljimogrog .title {
+  color: #313741d6;
+  font-family: var(--font-family-roboto);
+  font-size: 73.2px;
+  font-weight: 700;
+  left: 193px;
+  letter-spacing: -0.81px;
+  position: absolute;
+  text-align: center;
+  top: 355px;
+  width: 397px;
+}
+
+.juganiljimogrog .view-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 52px;
+  margin-right: 9.0px;
+  margin-top: 1px;
+  min-width: 343px;
+  padding: 15px;
+}
+
+.juganiljimogrog .text-26 {
+  color: var(--tundora);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+}
+
+.juganiljimogrog .view-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 52px;
+  margin-right: 11.0px;
+  margin-top: 9px;
+  min-width: 343px;
+  padding: 15px;
+}
+
+.juganiljimogrog .text-27 {
+  color: #333333;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+}
+
+.juganiljimogrog .button {
+  cursor: pointer;
+  height: 52px;
+  margin-right: 9.0px;
+  margin-top: 91px;
+  width: 343px;
+}

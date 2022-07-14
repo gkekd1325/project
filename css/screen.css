@@ -3,7 +3,7 @@
 .screen {
   align-items: flex-start;
   display: flex;
-  width: 1440px;
+  width: 100%;
 }
 
 #overlay-screen {
@@ -34,6 +34,7 @@
   height: 92px;
   min-width: 1454px;
   padding: 0 11px;
+  margin-top: 3%;
 }
 
 .screen .frame-1 {
@@ -81,6 +82,44 @@
   margin-top: 69px;
   position: relative;
   width: 150px;
+}
+
+.screen .menu1 {
+  align-items: center;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  /* border-bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  height: calc(140px / 3);
+  padding: 6px 0;
+  width: 176px;
+  background-image: url(../img/rectangle-20@2x.svg);
+}
+
+.screen .menu2 {
+  align-items: center;
+  border-bottom: 0;
+  border-top: 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(140px / 3);
+  padding: 6px 0;
+  width: 176px;
+}
+
+.screen .menu3 {
+  align-items: center;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(140px / 3);
+  padding: 6px 0;
+  width: 176px;
+  /* border-top: 0; */
 }
 
 .screen .view-1 {
@@ -445,10 +484,7 @@
 }
 
 .screen .text-39 {
-  letter-spacing: -0.81px;
-  margin-right: 9.0px;
-  margin-top: 1px;
-  min-height: 31px;
+  line-height: 30px;
   text-align: center;
   width: 131px;
 }
@@ -462,20 +498,14 @@
 
 .screen .text-41 {
   cursor: pointer;
-  letter-spacing: -0.81px;
-  margin-right: 9.0px;
-  margin-top: 9px;
-  min-height: 31px;
+  line-height: 35px;
   text-align: center;
   width: 131px;
 }
 
 .screen .text-40 {
   cursor: pointer;
-  letter-spacing: -0.81px;
-  margin-right: 9.0px;
-  margin-top: 11px;
-  min-height: 31px;
+  line-height: 30px;
   text-align: center;
   width: 131px;
 }

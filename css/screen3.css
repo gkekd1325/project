@@ -3,7 +3,7 @@
 .screen3 {
   align-items: flex-start;
   display: flex;
-  width: 1440px;
+  width: 100%;
 }
 
 #overlay-screen3 {
@@ -32,6 +32,7 @@
   background-color: var(--tundora-2);
   display: flex;
   height: 92px;
+  margin-top: 3%;
   min-width: 1440px;
   padding: 0 11px;
 }
@@ -63,7 +64,8 @@
   letter-spacing: -0.81px;
   position: absolute;
   text-align: center;
-  top: 6px;
+  /* line-height: 60px; */
+  /* top: 6px; */
   width: 127px;
 }
 
@@ -280,16 +282,24 @@
 }
 
 .screen3 .button {
+  align-items: flex-start;
+  background-color: var(--tundora);
+  border-radius: 10px;
+  display: flex;
   height: 40px;
-  margin-bottom: -862px;
-  width: 100px;
+  min-width: 100px;
+  padding: 10.6px 22.5px;
 }
 
 .screen3 .button-1 {
+  align-items: flex-start;
+  background-color: var(--tundora);
+  border-radius: 10px;
+  display: flex;
   height: 40px;
-  margin-bottom: -862px;
-  margin-left: 80px;
-  width: 100px;
+  margin-left: 31px;
+  min-width: 100px;
+  padding: 10.6px 22.5px;
 }
 
 .screen3 .group-6 {

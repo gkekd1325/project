@@ -138,18 +138,20 @@
   top: 509px;
 }
 
-.x-2 .number {
+.x-2 .num {
   height: 28px;
   letter-spacing: 0;
   margin-top: 8.74px;
   width: 35px;
+  position: relative;
+  z-index: 10;
 }
 
 .x-2 .rectangle-3-6 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -509.29px;
-  margin-left: 271px;
+  /* margin-bottom: -509.29px; */
+  /* margin-left: 271px; */
   width: 161px;
 }
 
@@ -171,11 +173,13 @@
   margin-left: 12.69px;
   margin-top: 9px;
   width: 35px;
+  position: relative;
+  z-index: 8;
 }
 
 .x-2 .rectangle-3 {
   height: 91px;
-  margin-top: 472px;
+  /* margin-top: 472px; */
   width: 161px;
 }
 
@@ -204,7 +208,7 @@
 
 .x-2 .rectangle-3-1 {
   height: 91px;
-  margin-top: 383px;
+  /* margin-top: 383px; */
   width: 161px;
 }
 
@@ -246,8 +250,8 @@
 .x-2 .rectangle-3-7 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -419.67px;
-  margin-left: 430px;
+  /* margin-bottom: -419.67px; */
+  /* margin-left: 430px; */
   width: 161px;
 }
 
@@ -307,7 +311,7 @@
 
 .x-2 .rectangle-3-2 {
   height: 91px;
-  margin-top: 293px;
+  /* margin-top: 293px; */
   width: 161px;
 }
 
@@ -349,8 +353,10 @@
 .x-2 .rectangle-3-9 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -330.05px;
-  margin-left: 430px;
+  /* margin-bottom: -330.05px; */
+  /* margin-left: 430px; */
+  position: relative;
+  right: 32px;
   width: 161px;
 }
 
@@ -368,8 +374,10 @@
 .x-2 .rectangle-3-10 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -330.05px;
-  margin-left: 271px;
+  /* margin-bottom: -330.05px; */
+  /* margin-left: 271px; */
+  position: relative;
+  right: 32px;
   width: 161px;
 }
 
@@ -410,8 +418,9 @@
 
 .x-2 .rectangle-3-3 {
   height: 91px;
-  margin-top: 203px;
+  /* margin-top: 203px; */
   width: 161px;
+  position: absolute;
 }
 
 .x-2 .x13 {
@@ -452,8 +461,10 @@
 .x-2 .rectangle-3-11 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -240.44px;
-  margin-left: 430px;
+  /* margin-bottom: -240.44px; */
+  /* margin-left: 430px; */
+  position: relative;
+  right: 31px;
   width: 161px;
 }
 
@@ -469,10 +480,12 @@
 }
 
 .x-2 .rectangle-3-12 {
-  align-self: flex-end;
+  /* align-self: flex-end; */
   height: 91px;
-  margin-bottom: -240.44px;
-  margin-left: 271px;
+  /* margin-bottom: -240.44px; */
+  /* margin-left: 271px; */
+  position: relative;
+  right: 31px;
   width: 161px;
 }
 
@@ -488,12 +501,14 @@
   width: 163px;
 }
 
-.x-2 .number-2 {
+.x-2 .num2 {
   height: 28px;
   letter-spacing: 0;
   margin-left: 12.69px;
   margin-top: 9px;
   width: 18px;
+  position: relative;
+  z-index: 8;
 }
 
 .x-2 .x8 {
@@ -521,8 +536,10 @@
 
 .x-2 .rectangle-3-4 {
   height: 91px;
-  margin-top: 114px;
+  /* margin-top: 114px; */
   width: 161px;
+  position: absolute; 
+  
 }
 
 .x-2 .x6 {
@@ -565,13 +582,17 @@
   letter-spacing: 0;
   margin-top: 8.74px;
   width: 18px;
+  position: relative;
+  z-index: 9;
 }
 
 .x-2 .rectangle-3-13 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -150.82px;
-  margin-left: 447px;
+  /* margin-bottom: -150.82px; */
+  /* margin-left: 447px; */
+  position: relative;
+  right: 31px;
   width: 161px;
 }
 
@@ -583,14 +604,17 @@
   left: 319px;
   min-width: 163px;
   position: absolute;
+  z-index: 8;
   top: 151px;
 }
 
 .x-2 .rectangle-3-14 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -150.82px;
-  margin-left: 288px;
+  /* margin-bottom: -150.82px; */
+  /* margin-left: 288px; */
+  position: relative;
+  right: 31px;
   width: 161px;
 }
 
@@ -617,18 +641,6 @@
   width: 163px;
 }
 
-.x-2 .overlap-group {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-35@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 956px;
-  min-width: 161px;
-  padding: 10.9px 0;
-  position: absolute;
-  top: 108px;
-}
 .og{
   align-items: flex-end;
   background-image: url(../img/rectangle-3-35@2x.svg);
@@ -653,18 +665,6 @@
   width: 161px;
 }
 
-.x-2 .overlap-group1 {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-36@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 797px;
-  min-width: 161px;
-  padding: 10.9px 0;
-  position: absolute;
-  top: 108px;
-}
 .og-1{
   align-items: flex-end;
   background-image: url(../img/rectangle-3-36@2x.svg);
@@ -685,18 +685,6 @@
   width: 161px;
 }
 
-.x-2 .overlap-group2 {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-37@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 637px;
-  min-width: 161px;
-  padding: 10.9px 0.0px;
-  position: absolute;
-  top: 108px;
-}
 .og-2{
   align-items: flex-end;
   background-image: url(../img/rectangle-3-37@2x.svg);
@@ -706,19 +694,6 @@
   left: 637px;
   min-width: 161px;
   padding: 10.9px 0.0px;
-  position: absolute;
-  top: 108px;
-}
-
-.x-2 .overlap-group3 {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-38@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 478px;
-  min-width: 161px;
-  padding: 10.9px 0;
   position: absolute;
   top: 108px;
 }
@@ -747,7 +722,9 @@
   width: 161px;
 }
 
-.x-2 .overlap-group4 {
+
+
+.og-4{
   align-items: flex-end;
   background-image: url(../img/rectangle-3-39@2x.svg);
   background-size: 100% 100%;
@@ -756,32 +733,6 @@
   left: 319px;
   min-width: 161px;
   padding: 10.9px 0.0px;
-  position: absolute;
-  top: 108px;
-}
-
-.og4{
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-39@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 319px;
-  min-width: 161px;
-  padding: 10.9px 0.0px;
-  position: absolute;
-  top: 108px;
-}
-
-.x-2 .overlap-group5 {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-3-40@2x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 44px;
-  left: 159px;
-  min-width: 161px;
-  padding: 10.9px 0;
   position: absolute;
   top: 108px;
 }
@@ -799,7 +750,7 @@
   top: 108px;
 }
 
-.x-2 .overlap-group6 {
+.og-6{
   align-items: flex-end;
   background-image: url(../img/rectangle-3-41@2x.svg);
   background-size: 100% 100%;
@@ -826,7 +777,7 @@
 .x-2 .overlap-group7 {
   align-items: flex-end;
   background-image: url(../img/rectangle-8@1x.svg);
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
   display: flex;
   height: 109px;
   justify-content: flex-end;
@@ -836,7 +787,6 @@
   position: absolute;
   top: 0;
 }
-
 .x-2 .text-118 {
   color: var(--black);
   font-family: var(--font-family-noto_sans);
@@ -860,7 +810,7 @@
   height: 91px;
   left: 319px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   width: 161px;
 }
 

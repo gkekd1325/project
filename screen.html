@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" href="css/popup_calendar.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </head>
   <body style="margin: 0">
     <input type="hidden" id="anPageName" name="page" value="screen" />
@@ -46,7 +48,7 @@
                   </div>
                   <a href="javascript:ShowOverlay('screen2', 'animate-appear');">
                     <div class="contents1">
-                      <div class="overlap-group">
+                      <div class="overlap-group openbtn">
                         <div class="select"></div>
                         <div class="text-31 valign-text-middle roboto-normal-black-15px">김서영 연차 상신</div>
                         <div class="number-1 valign-text-middle notosans-bold-black-15px">1</div>
@@ -91,13 +93,13 @@
                 <div class="text-39 notosans-bold-black-20px">일정관리</div>
               </div>
                 <!-- <img class="vector" src="img/vector-2@2x.svg" /> -->
-              <div class="menu2 border-2px-tundora">
+              <div class="menu2 border-2px-tundora" OnClick="location.href='-2.html'">
                 <a href="javascript:ShowOverlay('-2', 'animate-appear');"
                   ><div class="text-41 notosans-bold-black-20px">일정조회</div> </a
                 >
                 <!-- <img class="vector" src="img/vector-2@2x.svg" /> -->
               </div>
-              <div class="menu3 border-2px-tundora">
+              <div class="menu3 border-2px-tundora" OnClick="location.href='screen3.html'">
                 <a href="javascript:ShowOverlay('screen3', 'animate-appear');"
                   ><div class="text-40 notosans-bold-black-20px">주간일지</div>
                 </a>
@@ -175,7 +177,7 @@
                     <div class="navbar-link-text-71 valign-text-middle">작성일</div>
                   </div>
                   <a href="javascript:ShowOverlay('screen2', 'animate-appear');">
-                    <div class="contents1">
+                    <!-- <div class="contents1">
                       <div class="overlap-group-1">
                         <div class="select"></div>
                         <div class="text-73 valign-text-middle roboto-normal-black-15px">김서영 연차 상신</div>
@@ -183,7 +185,7 @@
                         <div class="text-74 valign-text-middle notosans-normal-black-15px">김서영</div>
                         <div class="date-1 valign-text-middle notosans-normal-black-15px">2022/07/05</div>
                       </div>
-                    </div></a
+                    </div></a -->
                   >
                   <div class="contents2">
                     <div class="number-2 valign-text-middle notosans-bold-black-15px">2</div>
@@ -605,6 +607,8 @@
           </div>
         </div>
       </div>
+      
+    </div>
     </div>
     <script>
       var overlay_id = "overlay--2";
@@ -663,6 +667,55 @@
           }
         }
       };
+    </script>
+    <div id="popup">
+      <div class="popup_body">
+          <div class="head">
+              <div class="popup_name">
+                  <img src="img/calendar.png" alt="calendar">&nbsp;일정등록
+              </div>
+              <button class="closebtn">X</button>
+          </div>
+          <div class="writer">
+              <div class="text">●&nbsp; 작성자</div>
+          </div>
+          <div class="textbox">
+              <div class="text t1">작성자</div>
+              <div class="text t2">김서영</div>
+              <div class="text t1">소속</div>
+              <div class="text t2">SI사업부</div>
+          </div>
+          <div class="text vacation">[발생연차 : 12.0 ] [사용연차 : 5.0] [잔여연차 : 7.0]</div>
+          <div class="body">
+              <div class="gridbox">
+                  <div class="grid">
+                      <label for="divi">구분</label>
+                      <select name="division" id="divi">
+                          <option value="">구분</option>
+                      </select>
+                      <label for="date">연차등록일</label>
+                      <input id="date" type="date">
+                  </div>
+                  <div class="grid2">            
+                      <label for="remark">사유</label>
+                      <textarea name="remark" id="remark" cols="30" rows="5"></textarea>
+                  </div>
+              </div>
+          </div>
+          <div class="button-0">
+              <button><img src="img/insertBT.png" alt="등록"></button>
+              <button><img src="img/updateBT.png" alt="수정"></button>
+              <button><img src="img/delBT.png" alt="삭제"></button>
+          </div>
+      </div>
+    </div>
+    <script>
+      $(".openbtn").click(function(){
+        $("#popup").fadeIn();
+      });
+      $(".closebtn").click(function(){
+        $("#popup").fadeOut();
+      });
     </script>
   </body>
 </html>

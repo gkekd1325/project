@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" href="css/popup_calendar_read.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </head>
   <body style="margin: 0">
     <input type="hidden" id="anPageName" name="page" value="-2" />
@@ -184,7 +186,7 @@
                   <img class="rectangle-3-5" src="img/rectangle-3-3@2x.svg" />
                 </div>
               </div>
-              <div class="rectangle-29"></div>
+              <div class="rectangle-29 openbtn"></div>
               <div class="month">
                 <div class="view-1">
                   <div class="view-2 border-1px-masala"><img class="caret" src="img/caret@2x.svg" /></div>
@@ -585,14 +587,14 @@
                 </div>
               </div>
               <div class="caegory">
-                <div class="overlap-group2 border-2px-tundora">
-                  <div class="text-39 notosans-bold-black-20px">일정관리</div>
+                <div class="overlap-group2 border-2px-tundora" >
+                  <div class="text-39 notosans-bold-black-20px" OnClick="location.href='screen.html'">일정관리</div>
                   <img class="vector" src="img/vector-2@2x.svg" />
                   <a href="javascript:ShowOverlay('-2', 'animate-appear');"
                     ><div class="text-41 notosans-bold-black-20px">일정조회</div> </a
                   ><img class="vector" src="img/vector-2@2x.svg" />
                   <a href="javascript:ShowOverlay('screen3', 'animate-appear');"
-                    ><div class="text-40 notosans-bold-black-20px">주간일지</div>
+                    ><div class="text-40 notosans-bold-black-20px" OnClick="location.href='screen3.html'">주간일지</div>
                   </a>
                 </div>
                 <img class="rectangle-20" src="img/rectangle-20@2x.svg" />
@@ -752,6 +754,55 @@
           }
         }
       };
+    </script>
+    <div id="popup">
+      <div class="popup_body">
+          <div class="head">
+              <div class="popup_name">
+                  <img src="img/calendar.png" alt="calendar">&nbsp;일정등록
+              </div>
+              <button class="closebtn">X</button>
+          </div>
+          <div class="writer">
+              <div class="text">●&nbsp; 작성자</div>
+          </div>
+          <div class="textbox">
+              <div class="text t1">작성자</div>
+              <div class="text t2">김서영</div>
+              <div class="text t1">소속</div>
+              <div class="text t2">SI사업부</div>
+          </div>
+          <div class="text vacation">[발생연차 : 12.0 ] [사용연차 : 5.0] [잔여연차 : 7.0]</div>
+          <div class="body">
+              <div class="gridbox">
+                  <div class="grid">
+                      <label for="divi">구분</label>
+                      <select name="division" id="divi">
+                          <option value="">구분</option>
+                      </select>
+                      <label for="date">연차등록일</label>
+                      <input id="date" type="date">
+                  </div>
+                  <div class="grid2">            
+                      <label for="remark">사유</label>
+                      <textarea name="remark" id="remark" cols="30" rows="5"></textarea>
+                  </div>
+              </div>
+          </div>
+          <!-- <div class="button-0">
+              <button><img src="img/insert@1x.png" alt="등록"></button>
+              <button><img src="img/update@1x.png" alt="수정"></button>
+              <button><img src="img/del@1x.png" alt="삭제"></button>
+          </div> -->
+      </div>
+    </div>
+    <script>
+      $(".openbtn").click(function(){
+        $("#popup").fadeIn();
+      });
+      $(".closebtn").click(function(){
+        $("#popup").fadeOut();
+      });
     </script>
   </body>
 </html>

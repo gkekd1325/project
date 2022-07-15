@@ -89,19 +89,24 @@ img{
     border: 0px;
     border-radius: 0 10px 10px 0px;
 }
+.vacation{
+    position: relative;
+    top: 200px;
+    left: 85px;
+}
 .body{
-    width: 650px;
-    height: 340px;
+    width: 600px;
+    height: 225px;
     background-color: #eee;
     position: absolute;
-    top: 220px;
-    left: 110px;
+    top: 280px;
+    left: 135px;
     border-radius: 10px;
     line-height: 30px;
     font-weight: bold;
 }
 .gridbox{
-    width: 530px;
+    width: 560px;
     position: relative;
     top: 20px;
     text-align: center;
@@ -110,27 +115,21 @@ img{
 }
 .body .grid{
     display: grid;
-	grid-template-columns: 100px 150px 100px 150px;
+	grid-template-columns: 100px 150px;
     grid-gap: 20px 10px;
     padding-bottom: 20px;
 }
 .body .grid2{
     display: grid;
-    grid-template-columns: 100px 420px;
+    grid-template-columns: 100px 450px;
     align-items: center;
     grid-gap: 20px 10px;
 }
-.grid2 #title{
-    line-height: 26px;
-}
-.button-0{
+/* .button-0{
     width: 600px;
     position: absolute;
     top: 580px;
     left: 135px;
     justify-content: space-evenly;
     display: flex;
-}
-.button-0 img{
-    border:0;
-}
+} */

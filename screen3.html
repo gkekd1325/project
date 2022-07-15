@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/screen3.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </head>
   <body style="margin: 0">
     <input type="hidden" id="anPageName" name="page" value="screen3" />
@@ -42,7 +44,7 @@
               </div>
               <a href="javascript:ShowOverlay('-', 'animate-appear');">
                 <div class="contents1">
-                  <div class="overlap-group3">
+                  <div class="overlap-group3 openbtn">
                     <div class="number valign-text-middle notosans-bold-black-15px">1</div>
                     <div class="text-10 valign-text-middle roboto-normal-black-15px">7월 1주차 주간업무 보고</div>
                     <div class="date valign-text-middle notosans-normal-black-15px">2022/07/04</div>
@@ -81,10 +83,10 @@
               <!-- <div class="rectangle-19 border-2px-tundora"></div> -->
               <!-- <img class="vector-2" src="img/vector-2@2x.svg" />
               <img class="vector-3" src="img/vector-2@2x.svg" /> -->
-            <div class="n_menu1 border-2px-tundora">       
+            <div class="n_menu1 border-2px-tundora" OnClick="location.href='screen.html'">       
               <div class="text-98">일정관리</div>
             </div>
-            <div class="menu2 border-2px-tundora">       
+            <div class="menu2 border-2px-tundora" OnClick="location.href='-2.html'">       
               <div class="text-99">일정조회</div>
             </div>
             <div class="n_menu3 border-2px-tundora">
@@ -397,6 +399,60 @@
           }
         }
       };
+    </script>
+    <div id="popup">
+      <div class="popup_body">
+          <div class="head">
+              <div class="popup_name">
+                  <img src="img/desktopicon.png" alt="deskicon">&nbsp;주간업무
+              </div>
+              <button class="closebtn">X</button>
+          </div>
+          <div class="writer">
+              <div class="text">●&nbsp; 작성자</div>
+          </div>
+          <div class="textbox">
+              <div class="text t1">작성자</div>
+              <div class="text t2">김서영</div>
+              <div class="text t1">소속</div>
+              <div class="text t2">SI사업부</div>
+          </div>
+          <div class="body">
+              <div class="gridbox">
+                  <div class="grid">  
+                      <label for="sdate">시작일</label>
+                      <input id="sdate" type="date">
+                      <label for="edate">종료일</label>
+                      <input id="edate" type="date">
+                      <label for="date">등록일</label>
+                      <input id="date" type="date">
+                      <label for="divi">구분</label>
+                      <select name="division" id="divi">
+                          <option value="">구분</option>
+                      </select>
+                  </div>
+                  <div class="grid2">            
+                      <label for="title">제목</label>
+                      <input id="title" type="text">
+                      <label for="remark">주간 업무</label>
+                      <textarea name="remark" id="remark" cols="30" rows="10"></textarea>
+                  </div>
+              </div>
+          </div>
+          <div class="button-0">
+              <button><img src="img/insertBT.png" alt="등록"></button>
+              <button><img src="img/updateBT.png" alt="수정"></button>
+              <button><img src="img/delBT.png" alt="삭제"></button>
+          </div>
+      </div>
+    </div>
+    <script>
+      $(".openbtn").click(function(){
+        $("#popup").fadeIn();
+      });
+      $(".closebtn").click(function(){
+        $("#popup").fadeOut();
+      });
     </script>
   </body>
 </html>

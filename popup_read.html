@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주간업무</title>
-    <link rel="stylesheet" href="css/popup.css">
+    <title>일정등록</title>
+    <link rel="stylesheet" href="css/popup_calendar.css">
 </head>
 <body>
     <div id="wrap">
@@ -13,7 +13,7 @@
             <div class="popup_body">
                 <div class="head">
                     <div class="popup_name">
-                        <img src="img/desktopicon.png" alt="deskicon">&nbsp;주간업무
+                        <img src="img/calendar.png" alt="calendar">&nbsp;
                     </div>
                     <button class="closebtn">X</button>
                 </div>
@@ -26,33 +26,28 @@
                     <div class="text t1">소속</div>
                     <div class="text t2">SI사업부</div>
                 </div>
+                <div class="text vacation">[발생연차 : 12.0 ] [사용연차 : 5.0] [잔여연차 : 7.0]</div>
                 <div class="body">
                     <div class="gridbox">
-                        <div class="grid">  
-                            <label for="sdate">시작일</label>
-                            <input id="sdate" type="date">
-                            <label for="edate">종료일</label>
-                            <input id="edate" type="date">
-                            <label for="date">등록일</label>
-                            <input id="date" type="date">
+                        <div class="grid">
                             <label for="divi">구분</label>
                             <select name="division" id="divi">
                                 <option value="">구분</option>
                             </select>
+                            <label for="date">연차등록일</label>
+                            <input id="date" type="date">
                         </div>
                         <div class="grid2">            
-                            <label for="title">제목</label>
-                            <input id="title" type="text">
-                            <label for="remark">주간 업무</label>
-                            <textarea name="remark" id="remark" cols="30" rows="10"></textarea>
+                            <label for="remark">사유</label>
+                            <textarea name="remark" id="remark" cols="30" rows="5"></textarea>
                         </div>
                     </div>
                 </div>
-                <div class="button">
-                    <button><img src="img/insert@1x.png" alt="등록"></button>
-                    <button><img src="img/update@1x.png" alt="수정"></button>
-                    <button><img src="img/del@1x.png" alt="삭제"></button>
-                </div>
+                <!-- <div class="button">
+                    <button><img src="project/img/insert@1x.png" alt="등록"></button>
+                    <button><img src="project/img/update@1x.png" alt="수정"></button>
+                    <button><img src="project/img/del@1x.png" alt="삭제"></button>
+                </div> -->
             </div>
         </div>
     </div>

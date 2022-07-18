@@ -39,11 +39,11 @@
               <div class="calendar">
                 <div class="overlap-group8">
                   <div class="x31">
-                    <div class="number valign-text-middle robotomono-bold-black-20px">31</div>
+                    <div class="num2 valign-text-middle robotomono-bold-black-20px">31</div>
                     <img class="rectangle-3-6" src="img/rectangle-3-4@2x.svg" />
                   </div>
                   <div class="x30">
-                    <div class="number-1 valign-text-middle robotomono-bold-black-20px">30</div>
+                    <div class="num2 valign-text-middle robotomono-bold-black-20px">30</div>
                     <img class="rectangle-3" src="img/rectangle-3-5@2x.svg" />
                   </div>
                   <div class="x29">
@@ -63,11 +63,11 @@
                     <img class="rectangle-3-1" src="img/rectangle-3-9@2x.svg" />
                   </div>
                   <div class="x25">
-                    <div class="number valign-text-middle robotomono-bold-black-20px">25</div>
+                    <div class="num2 valign-text-middle robotomono-bold-black-20px">25</div>
                     <img class="rectangle-3-7" src="img/rectangle-3-10@2x.svg" />
                   </div>
                   <div class="x24">
-                    <div class="number valign-text-middle robotomono-bold-black-20px">24</div>
+                    <div class="num2 valign-text-middle robotomono-bold-black-20px">24</div>
                     <img class="rectangle-3-8" src="img/rectangle-3-11@2x.svg" />
                   </div>
                   <div class="x23">
@@ -180,7 +180,7 @@
                   <div class="overlap-group7"><div class="text-118 valign-text-middle">7월</div></div>
                 </div>
                 <div class="overlap-group9">
-                  <img class="rectangle-3-5" src="img/rectangle-3@2x.svg" />
+                  <img class="rectangle-4" src="img/rectangle-3@2x.svg" />
                   <img class="rectangle-3-15" src="img/rectangle-3-1@2x.svg" />
                   <img class="rectangle-3-16" src="img/rectangle-3-2@2x.svg" />
                   <img class="rectangle-3-5" src="img/rectangle-3-3@2x.svg" />
@@ -194,20 +194,25 @@
                 </div>
               </div>
               <a href="javascript:ShowOverlay('yeoncailjeong-dalryeog-peiji', 'animate-appear');"
-                ><div class="text-122 valign-text-middle notosans-light-black-20px">김서영 연차</div>
+                class="openbtn"><div class="text-122 valign-text-middle notosans-light-black-20px">김서영 연차</div>
               </a>
             </div>
-            <div class="overlap-group11">
-              <div class="rectangle-28"></div>
-              <div class="rectangle-19 border-2px-tundora"></div>
-              <img class="vector-2" src="img/vector-2@2x.svg" />
-              <img class="vector-3" src="img/vector-2@2x.svg" />
-              <a href="javascript:ShowOverlay('screen', 'animate-appear');"
-                ><div class="text-119 notosans-bold-black-20px">일정관리</div> </a
-              ><a href="javascript:ShowOverlay('screen3', 'animate-appear');"
-                ><div class="text-120 notosans-bold-black-20px">주간일지</div>
-              </a>
-              <div class="text-121 notosans-bold-black-20px">일정조회</div>
+            <div class="caegory">
+              <div class="n_menu1 border-2px-tundora" OnClick="location.href='screen.html'">
+                <div class="text-39 notosans-bold-black-20px">일정관리</div>
+              </div>
+                <!-- <img class="vector" src="img/vector-2@2x.svg" /> -->
+              <div class="n_menu2 border-2px-tundora" OnClick="location.href='-2.html'">
+                <a href="javascript:ShowOverlay('-2', 'animate-appear');"
+                  ><div class="text-41 notosans-bold-black-20px">일정조회</div> </a
+                >
+                <!-- <img class="vector" src="img/vector-2@2x.svg" /> -->
+              </div>
+              <div class="menu3 border-2px-tundora" OnClick="location.href='screen3.html'">
+                <a href="javascript:ShowOverlay('screen3', 'animate-appear');"
+                  ><div class="text-40 notosans-bold-black-20px">주간일지</div>
+                </a>
+              </div>              
             </div>
           </div>
           <div class="button border-2px-black">
@@ -405,7 +410,7 @@
                 <div class="popup">
                   <div class="head">
                     <div class="view-2">
-                      <img class="image" src="img/------@1x.png" />
+                      <!-- <img class="image" src="img/------@1x.png" /> -->
                       <div class="text-19 valign-text-middle fontawesome5free-solid-normal-black-20px"> 작성자</div>
                     </div>
                     <div class="overlap-group-1">
@@ -799,7 +804,7 @@
     <script>
       $(".openbtn").click(function(){
         $("#popup").fadeIn();
-      });
+      });      
       $(".closebtn").click(function(){
         $("#popup").fadeOut();
       });

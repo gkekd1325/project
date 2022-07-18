@@ -131,7 +131,7 @@
   align-items: flex-start;
   display: flex;
   height: 91px;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   left: 319px;
   min-width: 163px;
   position: absolute;
@@ -152,6 +152,7 @@
   height: 91px;
   /* margin-bottom: -509.29px; */
   /* margin-left: 271px; */
+  position: absolute;
   width: 161px;
 }
 
@@ -181,6 +182,7 @@
   height: 91px;
   /* margin-top: 472px; */
   width: 161px;
+  position: absolute;
 }
 
 .x-2 .x29 {
@@ -240,7 +242,7 @@
   align-items: flex-start;
   display: flex;
   height: 91px;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   left: 478px;
   min-width: 163px;
   position: absolute;
@@ -252,6 +254,7 @@
   height: 91px;
   /* margin-bottom: -419.67px; */
   /* margin-left: 430px; */
+  position: absolute;
   width: 161px;
 }
 
@@ -259,7 +262,7 @@
   align-items: flex-start;
   display: flex;
   height: 91px;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   left: 319px;
   min-width: 163px;
   position: absolute;
@@ -269,9 +272,10 @@
 .x-2 .rectangle-3-8 {
   align-self: flex-end;
   height: 91px;
-  margin-bottom: -419.67px;
-  margin-left: 271px;
+  /* margin-bottom: -419.67px; */
+  /* margin-left: 271px; */
   width: 161px;
+  position: absolute;
 }
 
 .x-2 .x23 {
@@ -800,15 +804,24 @@
 
 .x-2 .overlap-group9 {
   height: 91px;
-  margin-right: 0;
-  margin-top: 419px;
+  /* margin-right: 0; */
+  /* margin-top: 419px; */
+  margin-top: -91px;
   position: relative;
-  width: 480px;
+  width: 640px;
 }
 
 .x-2 .rectangle-3-5 {
   height: 91px;
   left: 319px;
+  position: absolute;
+  bottom: 0;
+  width: 161px;
+}
+
+.x-2 .rectangle-4 {
+  height: 91px;
+  left: 479px;
   position: absolute;
   bottom: 0;
   width: 161px;
@@ -1002,4 +1015,16 @@
   letter-spacing: 0.52px;
   min-width: 50px;
   text-align: center;
+}
+
+ .screen .n_menu2 {
+  align-items: center;
+  border-bottom: 0;
+  border-top: 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(140px / 3);
+  padding: 6px 0;
+  width: 176px;
+  background-color: #ECECEC;
 }

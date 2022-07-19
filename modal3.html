@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주간업무</title>
+    <link rel="stylesheet" href="css/modal3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="popupwrap">
+        <div id="popup">
+            <div class="popup_body">
+                <div class="head">
+                    <div class="popup_name">
+                        <img src="img/desktopicon.png" alt="deskicon">&nbsp;주간업무
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+                <div class="writer">
+                    <div class="text">●&nbsp; 작성자</div>
+                </div>
+                <div class="textbox">
+                    <div class="text t1">작성자</div>
+                    <div class="text t2">김서영</div>
+                    <div class="text t1">소속</div>
+                    <div class="text t2">SI사업부</div>
+                </div>
+                <div class="body">
+                    <div class="gridbox">
+                        <div class="grid">  
+                            <label for="sdate">시작일</label>
+                            <input id="sdate" type="date">
+                            <label for="edate">종료일</label>
+                            <input id="edate" type="date">
+                            <label for="date">등록일</label>
+                            <input id="date" type="date">
+                            <label for="divi">구분</label>
+                            <select name="division" id="divi">
+                                <option value="">구분</option>
+                            </select>
+                        </div>
+                        <div class="grid2">            
+                            <label for="title">제목</label>
+                            <input id="title" type="text">
+                            <label for="remark">주간 업무</label>
+                            <textarea name="remark" id="remark" cols="20" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="button-0">
+                        <img src="img/insertBT.png" alt="등록">
+                        <img src="img/updateBT.png" alt="수정">
+                        <img src="img/delBT.png" alt="삭제">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

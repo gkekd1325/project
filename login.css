@@ -13,10 +13,11 @@ h1{
   padding: 20px 0;
 }
 .logo{
-    padding-left: 48px;
+    width: 40.5%;
+    margin: 0 auto;
 }
 .login{
-    padding-top: 10%;
+    margin-top: 10%;
 }
 .view1{
   /* align-items: flex-start; */
@@ -29,4 +30,22 @@ h1{
   padding: 15px;
   border: 2px solid black;
   text-align: left;
+}
+
+
+input{
+  background-color: var(--white);
+  border-radius: 5px;
+  /* display: flex; */
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: calc(343px - 30px) ;
+  padding: 15px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+::placeholder{
+  line-height: 50px;
+  font-size: 15px;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/popup.css">    
+</head>
+<body>
+    <div id="popup">
+        <div class="popup_body">
+            <div class="head">
+                <div class="popup_name">
+                    <img src="img/calendar.png" alt="calendar">&nbsp;일정등록
+                </div>
+                <button class="closebtn">X</button>
+            </div>
+            <div class="writer">
+                <div class="text">●&nbsp; 작성자</div>
+            </div>
+            <div class="textbox">
+                <div class="text t1">작성자</div>
+                <div class="text t2">김서영</div>
+                <div class="text t1">소속</div>
+                <div class="text t2">SI사업부</div>
+            </div>
+            <div class="text vacation">[발생연차 : 12.0 ] [사용연차 : 5.0] [잔여연차 : 7.0]</div>
+            <div class="body">
+                <div class="gridbox">
+                    <div class="grid">
+                        <label for="divi">구분</label>
+                        <select name="division" id="divi">
+                            <option value="">구분</option>
+                        </select>
+                        <label for="date">연차등록일</label>
+                        <input id="date" type="date">
+                    </div>
+                    <div class="grid2">            
+                        <label for="remark">사유</label>
+                        <textarea name="remark" id="remark" cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="button-0">
+                <img src="img/insertBT.png" alt="등록">
+                <img src="img/updateBT.png" alt="수정">
+                <img src="img/delBT.png" alt="삭제">
+            </div>
+        </div>
+      </div>
+      <script>
+        
+          $(".closebtn").click(function(){
+            $("#popup").fadeOut();
+          });
+      </script>
+</body>
+</html>

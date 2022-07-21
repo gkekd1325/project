@@ -18,10 +18,10 @@ function daily(){
     
 }
 
-var popup = document.querySelector(".open");
-popup.addEventListener("click", pop);
-function pop(){
-    window.open("modal1.html","_parent");
+// var popup = document.querySelector(".open");
+// popup.addEventListener("click", pop);
+// function pop(){
+//     window.open("modal1.html","_parent");
     
-}
+// }
 

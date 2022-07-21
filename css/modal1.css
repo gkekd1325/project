@@ -14,7 +14,7 @@ img{
     left: 0;
     /* display:none; */
     z-index: 10;
-    background: rgba(0,0,0, .5);
+    /* background: rgba(0,0,0, .5); */
 }
 .popup_body{
     width: 870px;

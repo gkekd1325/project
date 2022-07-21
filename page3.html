@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
     <header>
-        <div class="logo"><img src="img/logotext.png" alt="로고"></div>
-        <div class="home">
+        <div id="header">
+            <div class="logo"><img src="img/logotext.png" alt="로고"></div>
+            <div class="home">
             <img src="img/profile.png" alt="로고">
             <div class="name"><h1>김서영</h1><p>사원</p></div>
             <img src="img/home.png" alt="홈">
         </div>
+        </div>
+        
     </header>
     <div id="wrap">
         <div class="left">
@@ -29,7 +37,7 @@
             </nav>
         </div>        
         <div class="right">
-            <select name="month" id="month">                
+            <!-- <select name="month" id="month">                
                 <option value="2022/01">2022/01</option>
                 <option value="2022/02">2022/02</option>
                 <option value="2022/03">2022/03</option>
@@ -42,7 +50,7 @@
                 <option value="2022/10">2022/10</option>
                 <option value="2022/11">2022/11</option>
                 <option value="2022/12">2022/12</option>
-            </select>           
+            </select>            -->
             <div class="head">
                 <ul class="title">
                     <li>NO.</li>
@@ -71,7 +79,7 @@
             <div class="list"></div>
             <div class="list on"></div>    
             <div class="button">
-                <img src="img/newBT.png" alt="새글쓰기">
+                <a href="modal3.html" rel="modal:open"><img src="img/newBT.png" alt="새글쓰기"></a>
                 <img src="img/logoutBT.png" alt="로그아웃" class="logout">
             </div>            
         </div>

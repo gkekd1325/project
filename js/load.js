@@ -1,4 +1,4 @@
-$('.calendarload').load('calendar.html');
+// $('.calendarload').load('calendar.html');
 
 $(".click_pop").click(function(e){
   e.preventDefault();

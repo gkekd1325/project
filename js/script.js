@@ -80,6 +80,6 @@ $(function(){
     });
 });
   
-$(".ham").click(function(){
-    $(".m_menu").toggleClass("on");
-})
+// $(".ham").click(function(){
+//     $(".m_menu").toggleClass("on");
+// })

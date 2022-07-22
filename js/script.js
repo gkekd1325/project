@@ -49,6 +49,17 @@ $(document).ready(function () {
 // logout.addEventListener("click", out);
 // function out(){
 //     location.href="index.html";
+
+$(".ham").click(
+    function(){
+        $(".bar").toggleClass("on");        
+    }
+)
+
+// var popup = document.querySelector(".open");
+// popup.addEventListener("click", pop);
+// function pop(){
+//     window.open("modal1.html","_parent");
     
 // }
 

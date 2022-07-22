@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .info {
     display: flex;
@@ -70,8 +70,8 @@ nav li.on{background: gainsboro;}
 }
 .calendarload{
     height: 65vh;
-    /* border: #ccc 2px solid; */
-    border-radius: 10px;
+    border: #333 2px solid;
+    border-radius: 20px;
 
 }
 .button{

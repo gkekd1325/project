@@ -1,0 +1,32 @@
+
+@media (max-width: 640px) {
+    .category,.info3{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .nav{
+        position: fixed;
+        top: 150px;
+        left: 5px;
+        z-index: 50;
+        background: #fff;
+        display: none;
+    }
+}
+
+@media (min-width: 640px) {
+    .menu{
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+	.header_wrapper,#main{
+		width: 1440px;
+	}
+}

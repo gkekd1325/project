@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/newpage2.css">
-    <link rel="stylesheet" href="css/mediaquery.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>일정조회</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mainpage.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
     <div id="wrap">
@@ -27,13 +30,13 @@
         <div id="main">
             <div class="left">
                 <div class="menu">
-                    <a href="#none" class="menubtn">
+                    <a href="#" class="menubtn">
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
                     </a>
                 </div>
-                <div class="category"><img src="img/Category.png" alt="category"></div>
+                <div class="category"><a href="#"><img src="img/Category.png" alt="category"></a></div>
                 <nav class="nav">
                     <ul>
                         <li class="menu1"><h3>일정관리</h3></li>
@@ -44,15 +47,14 @@
             </div>
             <div class="right">
                 <div class="calendarload">
-                </div>
-                <div class="button">
-                   <!-- <img src="img/logoutBT.png" href="index.html" class=" click_pop" alt="logout"> -->
-                   <img src="img/logoutBT.png" alt="로그아웃" class="logout">
-                </div>
+            </div>
+            <div class="button">
+                <a href="modal1.html" rel="modal:open"><img src="img/newBT.png" alt="새글쓰기"></a>
+                <img src="img/logoutBT.png" alt="로그아웃" class="logout">
+            </div>        
             </div>
         </div>
     </div>
 </body>
-    <script src="js/load.js"></script>
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </html>

@@ -18,6 +18,11 @@ function daily(){
     
 }
 
+$(".ham").click(
+    function(){
+        $(".bar").toggleClass("on");        
+    }
+)
 // var popup = document.querySelector(".open");
 // popup.addEventListener("click", pop);
 // function pop(){

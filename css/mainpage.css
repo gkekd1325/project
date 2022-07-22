@@ -1,7 +1,7 @@
 header{
     width: 100%;
     background: #444;
-    
+    /* display: none; */
 }
 
 .logo{
@@ -26,6 +26,35 @@ header{
     text-align: center;
 }
 #header{width: 75%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+
+#h_menu{
+    width: 100%;
+    background: #444;
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.m_menu{
+    width: 100%;
+    display: none;
+    transition: 0.3s;
+    background: #444;
+}
+
+.m_menu.on{
+    width: 100%;
+    position: absolute;
+    top: 70px;   
+    display: block;
+}
+.m_menu li{
+    width: 100%;
+    color: white;
+    line-height: 40px;
+    background: #444;
+    text-align: center;
+}
+.inform{display: flex; align-items: center; justify-content: center; padding: 10px; gap: 20px; padding-top: 30px;}
+
 #wrap{
     width: 80%;
     margin: 0 auto;
@@ -128,8 +157,10 @@ nav ul li{
     height: 30px;
     display: flex;
     flex-wrap: wrap;
-    display: none;
+    /* display: none; */
+    
 }
+
 .bar{
     width: 100%; height: 5px; background: white; 
     transition: 0.3s;

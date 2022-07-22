@@ -1,32 +1,32 @@
+@media(max-width:2000px){
+    .left{width: 20%;}
+    .right{width: 70%;}
+}
 
-@media (max-width: 640px) {
-    .category,.info3{
-        display: none;
-    }
-    .right{
+@media(max-width:1350px ){
+    .left{width: 20%;}
+    .right{width: 50%;}
+    #wrap{width: 100%;}
+}
+
+@media(max-width:900px ){
+    .left{width: auto;}
+    .right{width: auto; }
+}
+
+@media(max-width:800px){
+    .home img{width: 20px; height: 20px;}
+    h1{font-size: 20px;}
+    .logo img{width: 80%;}    
+} 
+
+@media(max-width:600px){
+    #header{
         width: 100%;
+        
     }
-    #main{
-        flex-direction: column;
-    }
-    .nav{
-        position: fixed;
-        top: 150px;
-        left: 5px;
-        z-index: 50;
-        background: #fff;
-        display: none;
-    }
-}
-
-@media (min-width: 640px) {
-    .menu{
-        display: none;
-    }
-}
-
-@media (min-width: 1440px) {
-	.header_wrapper,#main{
-		width: 1440px;
-	}
+    .ham{display: flex; flex-wrap: wrap; padding: 20px;}
+    .home{display: none;}
+    .left{display: none;}
+    .right{width: 90%;}
 }

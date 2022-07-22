@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>일정조회</title>
+    <title>mainpage</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mainpage.css">
     <link rel="stylesheet" href="css/mediaquery.css">
@@ -14,45 +14,65 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
+    <header>
+        <div id="header">
+            <div class="logo"><a href="#"><img src="img/logotext.png" alt="로고"></a></div>
+            <a href="#" class="ham">                
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>                
+            </a>
+            
+            <div class="home">
+                <a href="#"><img src="img/profile.png" alt="로고" class="user"></a>
+                <div class="name"><h1>김서영</h1><p>사원</p></div>
+                <a href="#"><img src="img/home.png" alt="홈" class="house logout"></a>
+            </div>
+        </div>
+        
+    </header>
     <div id="wrap">
-        <header>
-            <div class="header_wrapper">
-                <a href="#" class="logo">
-                    <img src="img/logotext.png" alt="logo">
-                </a>
-                <div class="info">
-                    <div class="info1"><a href="#"><img src="img/profile.png" alt="profile"></a></div>
-                    <div class="info2"><h1>김서영님</h1></div>
-                    <div class="info3"><a href="#"><img src="img/home.png" alt="home"></a></div>
-                </div>       
+        <div class="left">
+            <a href="#"><img src="img/Category.png" alt="카테고리" class="category"></a>
+            <nav>
+                <ul>
+                    <li class="menu menu1"><h3>일정관리</h3></li>
+                    <li class="menu menu2"><h3>일정조회</h3></li>
+                    <li class="menu menu3"><h3>주간일지</h3></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <div class="head">
+                <ul class="title">
+                    <li>NO.</li>
+                    <li>제목</li>                
+                    <li>작성자</li>
+                    <li>작성일</li>
+                </ul>
+            </div>            
+            <div class="list">
+                <ul class="description">
+                    <li>1</li>
+                    <li>김환 연차 상신</li>
+                    <li>김환</li>
+                    <li>2022/08/19</li>                
+                </ul>
             </div>
-        </header>
-        <div id="main">
-            <div class="left">
-                <div class="menu">
-                    <a href="#" class="menubtn">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </a>
-                </div>
-                <div class="category"><a href="#"><img src="img/Category.png" alt="category"></a></div>
-                <nav class="nav">
-                    <ul>
-                        <li class="menu1"><h3>일정관리</h3></li>
-                        <li class="menu2"><h3>일정조회</h3></li>
-                        <li class="menu3"><h3>주간일지</h3></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="right">
-                <div class="calendarload">
-            </div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list on"></div>    
             <div class="button">
                 <a href="modal1.html" rel="modal:open"><img src="img/newBT.png" alt="새글쓰기"></a>
-                <img src="img/logoutBT.png" alt="로그아웃" class="logout">
-            </div>        
-            </div>
+                <a href="#"><img src="img/logoutBT.png" alt="로그아웃" class="logout"></a>
+            </div>            
         </div>
     </div>
 </body>

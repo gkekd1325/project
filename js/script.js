@@ -19,7 +19,7 @@
 
 $(function(){
     $(".menu1").click(function(){
-        $('.right').load('list.html');
+        $('.right').load('list1.html');
     });
 });
 
@@ -31,12 +31,12 @@ $(function(){
 
 $(function(){
     $(".menu3").click(function(){
-        $('.right').load('list.html');
+        $('.right').load('list3.html');
     });
 });
 
 $(document).ready(function () {
-    $("nav li").each(function () {
+    $(".menu").each(function () {
         $(this).click(function () {
             $(this).addClass("on");
             $(this).siblings().removeClass("on");
@@ -73,10 +73,3 @@ $(function(){
         location.href="index.html";
     });
 });
-  
-var popup = document.querySelector(".open");
-popup.addEventListener("click", pop);
-function pop(){
-    window.open("modal1.html","_parent");
-    
-}

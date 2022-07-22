@@ -17,24 +17,29 @@
 // });
 
 
-$(function(){
-    $(".menu1").click(function(){
-        $('.right').load('list1.html');
+document.addEventListener('DOMContentLoaded', function() {
+    $(function(){
+        $(".menu1").click(function(){
+            $('.right').load('list1.html');
+        });
     });
-});
+}, false);
 
-$(function(){
-    $(".menu2").click(function(){
-        $('.right').load('calendarload.html');
+document.addEventListener('DOMContentLoaded', function() {
+    $(function(){
+        $(".menu2").click(function(){
+            $('.right').load('calendarload.html');
+        });
     });
-});
+}, false);
 
-$(function(){
-    $(".menu3").click(function(){
-        $('.right').load('list3.html');
+document.addEventListener('DOMContentLoaded', function() {
+    $(function(){
+        $(".menu3").click(function(){
+            $('.right').load('list3.html');
+        });
     });
-});
-
+}, false);
 $(document).ready(function () {
     $(".menu").each(function () {
         $(this).click(function () {
@@ -50,11 +55,12 @@ $(document).ready(function () {
 // function out(){
 //     location.href="index.html";
 
-$(".ham").click(
-    function(){
-        $(".bar").toggleClass("on");        
-    }
-)
+// $(".ham").click(
+//     function(){
+//         $(".bar").toggleClass("on");
+//         $(".m_menu").stop().SlideToggle()
+//     }
+// )
 
 // var popup = document.querySelector(".open");
 // popup.addEventListener("click", pop);

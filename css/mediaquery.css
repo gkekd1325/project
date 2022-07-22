@@ -3,7 +3,8 @@
     .right{width: 70%;}
 }
 
-@media(max-width:1350px ){
+@media(max-width:1280px ){
+    #header{width: 100%};
     .left{width: 20%;}
     .right{width: 50%;}
     #wrap{width: 100%;}
@@ -17,16 +18,20 @@
 @media(max-width:800px){
     .home img{width: 20px; height: 20px;}
     h1{font-size: 20px;}
-    .logo img{width: 80%;}    
+    .logo img{width: 250px;} 
 } 
 
-@media(max-width:600px){
+@media(max-width:700px){
     #header{
         width: 100%;
         
     }
-    .ham{display: flex; flex-wrap: wrap; padding: 20px;}
-    .home{display: none;}
+    /* .ham{display: flex; flex-wrap: wrap; padding: 20px;} */
+    /* .home{display: none;} */
     .left{display: none;}
     .right{width: 90%;}
+    .m_menu{
+        display: flex;
+        justify-content: space-around;
+    }
 }

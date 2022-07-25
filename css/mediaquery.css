@@ -63,12 +63,6 @@
         text-align: left; width: 30px;
     }
     .description2 li:nth-child(1){text-align: left; width: 30px;}
-}
-
-@media(max-width:500px){
-    .logo{width: 65%;}
-    .logo img{width: 180px;}
-    .home{width: 35%; gap: 0px ;}
     nav ul{
         color: #fff;
     }
@@ -80,6 +74,13 @@
         background:#fff; 
         color: #333;
         transition: .3s;}
+}
+
+@media(max-width:500px){
+    .logo{width: 65%;}
+    .logo img{width: 180px;}
+    .home{width: 35%; gap: 0px ;}
+    
 }
 
 @media(min-width:700px){

@@ -3,9 +3,6 @@
     .popup_body{
         width: 90%;
     }
-    .modal-dialog{
-        overflow-y: initial !important
-    }
     .head{
         width: 95%;
     }
@@ -13,6 +10,10 @@
         width: 80%;
         left:10%;
     }
+    .textbox{
+        margin: 0 auto;
+    }
+    input{width: auto;}
     .text.t1{
         width: 17%;
     }

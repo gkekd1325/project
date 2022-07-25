@@ -125,7 +125,6 @@ nav li{
 }
 .description li{line-height: 50px; }
 .description li:nth-last-child(1){margin-right: -15px;}
-
 .description2{
     display: flex; 
     justify-content: space-between; 
@@ -140,8 +139,6 @@ nav li{
     text-align: center;
 }
 .description2 li:nth-child(1){text-align: left; width: 100px;}
-/* .description2 li:nth-last-child(1){text-align: right;} */
-
 .button{
     display: flex; justify-content: space-around; width: 300px;
     margin-top: 3%;

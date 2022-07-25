@@ -37,10 +37,6 @@
         padding-top: 0;
         gap: 20px;
     }
-    nav{
-        display: flex;
-        justify-content: space-around;
-    }
     nav ul{
         display: flex;
     }
@@ -54,12 +50,13 @@
         width: 90%;
         margin: 0 auto;
     }
-    .m_menu{
-        display: flex;
-        justify-content: space-around;
+    nav{
+        width: 100%;
     }
     nav ul{
         color: #fff;
+        display: flex;
+        justify-content: space-around;
     }
     .menu.on{
         background:#fff;

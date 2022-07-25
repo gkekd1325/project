@@ -28,7 +28,7 @@ a{display: block;}
     background: #fff;
 }
 .head{
-    width: 830px;
+    width: 95%;
     /* background-color: #ada; */
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@ a{display: block;}
     border-radius: 10px;
   }
 .writer{
-    width: 720px;
+    width: 70%;
     /* background: #dad; */
     position: absolute;
     top: 90px;
@@ -64,12 +64,14 @@ a{display: block;}
     font-size: 1.2rem;
 }
 .textbox{
-    width: 720px;
+    width: 82%;
     height: 48px;
     background-color: #eee;
-    position: absolute;
+    /* position: absolute;
     top: 130px;
-    left: 75px;
+    left: 75px; */
+    margin-top: 130px;
+    margin-left: 75px;
     display:flex;
     text-align: center;
     border: #333 1px solid;
@@ -91,12 +93,14 @@ a{display: block;}
     border-radius: 0 10px 10px 0px;
 }
 .body{
-    width: 650px;
+    width: 75%;
     height: 340px;
     background-color: #eee;
-    position: absolute;
+    /* position: absolute;
     top: 220px;
-    left: 110px;
+    left: 110px; */
+    margin: 0 auto;
+    margin-top: 30px;
     border-radius: 10px;
     line-height: 30px;
     font-weight: bold;
@@ -125,10 +129,12 @@ a{display: block;}
     line-height: 26px;
 }
 .button-0{
-    width: 600px;
-    position: absolute;
+    width: 70%;
+    /* position: absolute;
     top: 580px;
-    left: 135px;
+    left: 135px; */
+    margin: 0 auto;
+    margin-top: 30px;
     justify-content: space-evenly;
     display: flex;
 }

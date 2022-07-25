@@ -1,17 +1,44 @@
-/* @media(max-width:2000px){
-    #popup{
-        width: 600px;
+@media(max-width:870px){
+    .popup_body{
+        width: 90%;
+    }
+    .modal-dialog{
+        overflow-y: initial !important
+    }
+    .head{
+        width: 95%;
+    }
+    .writer, .textbox{
+        width: 80%;
+        left:10%;
+    }
+    .text.t1{
+        width: 17%;
+    }
+    .text.t2{
+        width: 33%;
+    }
+    .vacation, .body{
+        width: 70%;
+    }
+    .gridbox, .button-0{
+        width: 65%;
+    }
+    .body, .button-0{
+        left: 18%;
+    }
+    .gridbox{
+        margin: 0;
+    }
+    .body .grid2{
+        grid-template-columns: 100px 200px;
+    }
+
+}
+@media(max-height:660px){
+    
+    .popup_body{
+        height: calc(660px - 200px);
+        overflow-y: auto;
     }
 }
-
-@media(max-width:1280px ){
-}
-
-@media(max-width:900px ){
-}
-
-@media(max-width:800px){
-} 
-
-@media(max-width:700px){
-} */

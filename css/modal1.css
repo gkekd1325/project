@@ -8,13 +8,14 @@ img{
 }
 #popup{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
     /* display:none; */
     z-index: 10;
     /* background: rgba(0,0,0, .5); */
+    overflow-y: auto;
 }
 .popup_body{
     width: 870px;
@@ -132,4 +133,7 @@ img{
     left: 135px;
     justify-content: space-evenly;
     display: flex;
-  }
+}
+#remark{
+    width: 180px;
+}

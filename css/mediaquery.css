@@ -31,12 +31,29 @@
 @media(max-width:700px){
     #header{
         width: 100%;
-        
+    }
+    #wrap{
+        flex-direction: column;
+        padding-top: 0;
+        gap: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: flex;
     }
     /* .ham{display: flex; flex-wrap: wrap; padding: 20px;} */
     /* .home{display: none;} */
-    .left{display: none;}
-    .right{width: 90%;}
+    .category{display: none;}
+    .left{
+        background: #444;
+    }
+    .right{
+        width: 90%;
+        margin: 0 auto;
+    }
     .m_menu{
         display: flex;
         justify-content: space-around;
@@ -52,4 +69,29 @@
     .logo{width: 65%;}
     .logo img{width: 180px;}
     .home{width: 35%; gap: 0px ;}
+    nav ul{
+        color: #fff;
+    }
+    .menu.on{
+        background:#fff;
+        color: #333;
+    }
+    nav .menu:hover{
+        background:#fff; 
+        color: #333;
+        transition: .3s;}
+}
+
+@media(min-width:700px){
+    nav .menu1{border-bottom: 2px solid black; border-top-left-radius:8px; border-top-right-radius: 8px;}
+    nav .menu2{border-bottom: 2px solid black;}
+    nav .menu3{border-bottom-left-radius:8px; border-bottom-right-radius: 8px;}
+    nav .menu:hover{background:gainsboro; transition: .6s;}  
+    nav{
+        margin-top: 15%;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .menu.on{background:gainsboro;}
+    nav .menu:hover{background:gainsboro; transition: .3s;}
 }

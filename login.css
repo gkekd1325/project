@@ -12,10 +12,9 @@ h1{
   line-height: 120px;
   padding: 20px 0;
 }
-.logo{
-    width: 40.5%;
-    margin: 0 auto;
-}
+.logo img{
+  display : block;
+  margin : auto;}
 .login{
     margin-top: 10%;
 }

@@ -9,6 +9,10 @@
     .left{width: 20%;}
     .right{width: 50%;}
     #wrap{width: 100%;}
+    .title1 li:nth-child(1){
+        text-align: left; width: 50px;
+    }
+    .description2 li:nth-child(1){text-align: left; width: 50px;}
 }
 
 @media(max-width:900px ){
@@ -20,6 +24,8 @@
     .home img{width: 20px; height: 20px;}
     h1{font-size: 20px;}
     .logo img{width: 250px;} 
+    .head li{font-size: 17px;}
+    .list li{font-size: 12px;}
 } 
 
 @media(max-width:700px){
@@ -77,4 +83,15 @@
     }
     .menu.on{background:gainsboro;}
     nav .menu:hover{background:gainsboro; transition: .3s;}
+    
+    .title1 li:nth-child(1){
+        text-align: left; width: 30px;
+    }
+    .description2 li:nth-child(1){text-align: left; width: 30px;}
+}
+
+@media(max-width:500px){
+    .logo{width: 65%;}
+    .logo img{width: 180px;}
+    .home{width: 35%; gap: 0px ;}
 }

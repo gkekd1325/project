@@ -16,7 +16,6 @@
 //     });
 // });
 
-
 document.addEventListener('DOMContentLoaded', function() {
     $(function(){
         $(".menu1").click(function(){

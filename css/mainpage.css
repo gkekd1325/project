@@ -82,6 +82,24 @@ nav li{
 }
 .title li{font-size: 20px; line-height: 50px;}
 
+.title1{
+    display: flex; 
+    justify-content: space-between;     
+    width: 93%;
+    margin: 0 auto;
+}
+.title1 li{
+    font-size: 20px; line-height: 50px;
+    width: calc(100% / 5);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.title1 li:nth-child(1){
+    text-align: left; width: 100px;
+}
+.title1 li:nth-last-child(1){text-align: center;}
+
 .list{
     border-bottom: 1px solid black;
     width: 90%;
@@ -107,6 +125,22 @@ nav li{
 }
 .description li{line-height: 50px; }
 .description li:nth-last-child(1){margin-right: -15px;}
+
+.description2{
+    display: flex; 
+    justify-content: space-between; 
+    width: 92%;
+    margin: 0 auto;
+}
+.description2 li{
+    line-height: 50px; width: calc(100% / 5);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.description2 li:nth-child(1){text-align: left; width: 100px;}
+/* .description2 li:nth-last-child(1){text-align: right;} */
 
 .button{
     display: flex; justify-content: space-around; width: 300px;

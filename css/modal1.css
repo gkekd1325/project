@@ -28,7 +28,7 @@ img{
     background: #fff;
 }
 .head{
-    width: 830px;
+    width: 95%;
     /* background-color: #ada; */
     display: flex;
     justify-content: space-between;

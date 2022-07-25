@@ -45,5 +45,9 @@
     input{width: auto;}
 } 
 
-@media(max-width:700px){
+@media(max-width:660px){
+    .popup_body{
+        height: calc(660px - 200px);
+        overflow-y: auto;
+    }
 }

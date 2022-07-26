@@ -42,10 +42,9 @@
     .textbox{
         width: 80%; margin: 0 auto;
     }
-    input{width: auto;}
 } 
 
-@media(max-width:660px){
+@media(max-height:660px){
     .popup_body{
         height: calc(660px - 200px);
         overflow-y: auto;

@@ -1,5 +1,4 @@
-#wrap{
-    width: 50%;
+#wrap{width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -16,7 +15,7 @@ h1{
   display : block;
   margin : auto;}
 .login{
-    margin-top: 10%;
+  margin-top: 10%;
 }
 .view1{
   /* align-items: flex-start; */
@@ -47,4 +46,12 @@ input{
 ::placeholder{
   line-height: 50px;
   font-size: 15px;
+}
+@media(max-width:828px){
+  .logo img{
+    width: 100%;
+  }
+  input{
+    width: 38%;
+  }
 }

@@ -114,13 +114,13 @@ img{
     margin:0 auto;
     display: grid;
 }
-.body .grid{
+.body .g_grid{
     display: grid;
 	grid-template-columns: 100px 150px;
     grid-gap: 20px 10px;
     padding-bottom: 20px;
 }
-.body .grid2{
+.body .g_grid2{
     display: grid;
     grid-template-columns: 100px 450px;
     align-items: center;

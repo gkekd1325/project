@@ -81,6 +81,7 @@
         display: grid;
         grid-template-columns: 100px 120px;
     }
+    .text.vacation{font-size: 13px;}
     .button-0 img{width: 60px;}
     .head{width: 90%;}
     .text.t1{font-size: 14px;}

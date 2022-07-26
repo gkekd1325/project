@@ -91,4 +91,11 @@
     .logo{width: 65%;}
     .logo img{width: 180px;}
     .home{width: 35%; gap: 0px ;}
+    /* .head li{font-size: 15px;} */
+    .description2 li:nth-child(1){width: 30px;}
+    .description li:nth-child(2){width: 90px;}
+    .title1 li:nth-child(1){width: 30px;}
+    .title1 li:nth-child(2){width: 80px;}
+    .head li{font-size: 15px;}
+    .description2 li:nth-child(2){width: 100px;}
 }

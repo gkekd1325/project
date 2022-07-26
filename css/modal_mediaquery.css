@@ -40,13 +40,49 @@
 
 @media(max-width:800px){
     .textbox{
-        width: 80%; margin: 0 auto;
+        width: 80%;
     }
+    .body .grid{
+        /* width: 80%;  */
+        display: grid;
+	    grid-template-columns: 80px 100px 100px 80px;
+    }
+    .grid2{width: 80%;}
+    label{width: 80px;}
+    /* input{width: 100px;} */
+    /* select{width: 105px;} */
 } 
-
 @media(max-height:660px){
     .popup_body{
         height: calc(660px - 200px);
         overflow-y: auto;
     }
+}
+
+@media(max-width:660px){
+    
+    .body .grid{
+        /* width: 80%;  */
+        display: grid;
+	    grid-template-columns: 60px 80px 60px 80px;
+    }
+    .button-0{width: 70%; margin: 0 auto; }
+    .button-0 img{width: 80px;}
+}
+
+@media(max-width:500px){
+    label{font-size: 12px;}
+    .body .grid{
+        /* width: 80%;  */
+        display: grid;
+	    grid-template-columns: 50px 60px 50px 60px;
+    }
+    .body .grid2{
+        display: grid;
+        grid-template-columns: 100px 120px;
+    }
+    .button-0 img{width: 60px;}
+    .head{width: 90%;}
+    .text.t1{font-size: 14px;}
+    .text.t2{font-size: 14px;}
 }

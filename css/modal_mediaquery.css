@@ -45,7 +45,9 @@
     .body .grid{
         /* width: 80%;  */
         display: grid;
-	    grid-template-columns: 80px 100px 100px 80px;
+    }
+    .grid .label4{
+	    grid-template-columns: 80px 100px 80px 100px;
     }
     .grid2{width: 80%;}
     label{width: 80px;}

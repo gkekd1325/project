@@ -1,4 +1,4 @@
-#wrap{width: 100%;
+#wrap{
     margin: 0 auto;
     text-align: center;
 }
@@ -10,12 +10,14 @@ h1{
   letter-spacing: -0.81px;
   line-height: 120px;
   padding: 20px 0;
+  margin: 0 auto;
 }
 .logo img{
   display : block;
-  margin : auto;}
+  padding-left: 2%;
+}
 .login{
-  margin-top: 10%;
+    margin-top: 6%;
 }
 .view1{
   /* align-items: flex-start; */

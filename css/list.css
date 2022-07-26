@@ -34,7 +34,7 @@
     margin: 0 auto;
 }
 .description li{line-height: 50px; }
-.description li:nth-last-child(1){margin-right: -15px;}
+/* .description li:nth-last-child(1){margin-right: -15px;} */
 
 .button{
     display: flex; justify-content: space-around; width: 300px;

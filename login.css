@@ -18,7 +18,7 @@ h1{
   
 }
 .login{
-    margin-top: 10%;
+    margin-top: 50px;
 }
 .view1{
   /* align-items: flex-start; */
@@ -27,7 +27,6 @@ h1{
   /* display: flex; */
   margin: 0 auto;
   margin-bottom: 10px;
-  width: calc(343px - 30px) ;
   padding: 15px;
   border: 2px solid black;
   text-align: left;
@@ -40,23 +39,23 @@ input{
   /* display: flex; */
   margin: 0 auto;
   margin-bottom: 10px;
-  width: calc(343px - 30px) ;
   padding: 15px;
   border: 2px solid black;
   text-align: left;
+  width: 343px ;
 }
 
 ::placeholder{
   line-height: 50px;
   font-size: 15px;
 }
-@media(max-width:600px) {
+@media(max-width:844px) {
   .logo img{
       width: 98%;
   }
-  input, .login{
-      width: 50%;
-  }
+  /* input, .login{
+      width: 40%;
+  } */
   h1{
     font-size: 3rem;
   }

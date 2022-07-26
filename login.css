@@ -1,5 +1,4 @@
 #wrap{
-    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -14,7 +13,10 @@ h1{
 }
 .logo img{
   display : block;
-  margin : auto;}
+  margin : auto;
+  padding-left: 2%;
+  
+}
 .login{
     margin-top: 10%;
 }
@@ -47,4 +49,15 @@ input{
 ::placeholder{
   line-height: 50px;
   font-size: 15px;
+}
+@media(max-width:600px) {
+  .logo img{
+      width: 98%;
+  }
+  input, .login{
+      width: 50%;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }

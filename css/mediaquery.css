@@ -18,7 +18,7 @@
     .home img{width: 20px; height: 20px;}
     h1{font-size: 20px;}
     .logo img{width: 250px;} 
-    .head li{font-size: 17px;}
+    .head li{font-size: 15px;}
     .list li{font-size: 12px;}
     body{
         padding-top: 118px;
@@ -42,7 +42,6 @@
     }
     .right{
         min-width: 90%;
-        margin: 0 auto;
     }
     nav{
         width: 100%;
@@ -85,7 +84,6 @@
 }
 
 @media(max-width:500px){
-    .logo{width: 65%;}
-    .logo img{width: 180px;}
-    .home{width: 35%; gap: 0px ;}
+    .logo img{width: 140px;}
+    .home{gap: 0px; margin: 0 10px;}
 }

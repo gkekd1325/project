@@ -67,11 +67,11 @@ a{display: block;}
     width: 82%;
     height: 48px;
     background-color: #eee;
-    /* position: absolute;
+    position: absolute;
     top: 130px;
-    left: 75px; */
-    margin-top: 130px;
-    margin-left: 75px;
+    left: 75px;
+    /* margin-top: 130px;
+    margin-left: 75px; */
     display:flex;
     text-align: center;
     border: #333 1px solid;
@@ -96,11 +96,11 @@ a{display: block;}
     width: 75%;
     height: 340px;
     background-color: #eee;
-    /* position: absolute;
+    position: absolute;
     top: 220px;
-    left: 110px; */
+    left: 110px;
     margin: 0 auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 10px;
     line-height: 30px;
     font-weight: bold;
@@ -130,11 +130,11 @@ a{display: block;}
 }
 .button-0{
     width: 70%;
-    /* position: absolute;
+    position: absolute;
     top: 580px;
-    left: 135px; */
+    left: 135px;
     margin: 0 auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     justify-content: space-evenly;
     display: flex;
 }

@@ -93,7 +93,7 @@ a{display: block;}
     border-radius: 0 10px 10px 0px;
 }
 .body{
-    width: 75%;
+    width: 600px;
     height: 340px;
     background-color: #eee;
     position: absolute;
@@ -106,30 +106,28 @@ a{display: block;}
     font-weight: bold;
 }
 .gridbox{
-    width: 530px;
+    width: 90%;
     position: relative;
-    top: 20px;
-    text-align: center;
+    top: 30px;
     margin:0 auto;
-    display: grid;
 }
 .body .grid{
     display: grid;
-	grid-template-columns: 100px 150px 100px 150px;
-    grid-gap: 20px 10px;
-    padding-bottom: 20px;
+	grid-template-columns: 1fr 1.5fr 1fr 1.5fr;
+    grid-gap: 30px 10px;
+    padding-bottom: 30px;
 }
 .body .grid2{
     display: grid;
-    grid-template-columns: 100px 420px;
+    grid-template-columns: 1fr 4.2fr;
     align-items: center;
-    grid-gap: 20px 10px;
+    grid-gap: 30px 10px;
 }
 .grid2 #title{
     line-height: 26px;
 }
 .button-0{
-    width: 70%;
+    width: 600px;
     position: absolute;
     top: 580px;
     left: 135px;
@@ -140,4 +138,27 @@ a{display: block;}
 }
 .button-0 img{
     border:0;
+}
+.gridbox label{
+    position: relative;
+    left: calc(50% - 50px);
+    width: 80px;
+    text-align: center;
+}
+@media(max-width:768px){
+    
+    .gridbox{
+        top: 10px;
+    }
+    .body .grid{
+        grid-template-columns: 1fr 4.2fr;
+        padding-bottom: 5px;
+        gap: 5px 10px;
+    }
+    .body .grid2{
+        grid-template-columns: none;
+        gap: 5px 10px;
+    }
+}
+@media(min-width:768px){
 }

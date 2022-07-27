@@ -1,34 +1,27 @@
-@media(max-width:2000px){
-    .left{width: 20%;}
-    .right{width: 70%;}
-    /* #h_menu{display: none;} */
-}
 
 @media(max-width:1280px ){
     #header{width: 100%};
-    .left{width: 20%;}
-    .right{width: 50%;}
-    #wrap{width: 100%;}
-    .title1 li:nth-child(1){
+    /* .left{width: 20%;} */
+    /* .title1 li:nth-child(1){
         text-align: left; width: 50px;
     }
-    .description2 li:nth-child(1){text-align: left; width: 50px;}
+    .description2 li:nth-child(1){text-align: left; width: 50px;} */
 }
+@media(max-width:1024px){
+    .right{
+        min-width: 478px;
+    }
+} 
 
-@media(max-width:900px ){
-    .left{width: auto;}
-    .right{width: auto; }
-}
-
-@media(max-width:800px){
+@media(max-width:768px){
     .home img{width: 20px; height: 20px;}
     h1{font-size: 20px;}
     .logo img{width: 250px;} 
-    .head li{font-size: 17px;}
+    .head li{font-size: 15px;}
     .list li{font-size: 12px;}
-} 
-
-@media(max-width:700px){
+    body{
+        padding-top: 118px;
+    }
     #header{
         width: 100%;
     }
@@ -47,11 +40,13 @@
         background: #444;
     }
     .right{
-        width: 90%;
-        margin: 0 auto;
+        min-width: 90%;
     }
     nav{
         width: 100%;
+        background: #444;
+        position: fixed;
+        top: 78px;
     }
     nav ul{
         color: #fff;
@@ -68,7 +63,7 @@
         transition: .3s;}
 }
 
-@media(min-width:700px){
+@media(min-width:769px){
     nav .menu1{border-bottom: 2px solid black; border-top-left-radius:8px; border-top-right-radius: 8px;}
     nav .menu2{border-bottom: 2px solid black;}
     nav .menu3{border-bottom-left-radius:8px; border-bottom-right-radius: 8px;}
@@ -81,14 +76,13 @@
     .menu.on{background:gainsboro;}
     nav .menu:hover{background:gainsboro; transition: .3s;}
     
-    .title1 li:nth-child(1){
+    /* .title1 li:nth-child(1){
         text-align: left; width: 30px;
     }
-    .description2 li:nth-child(1){text-align: left; width: 30px;}
+    .description2 li:nth-child(1){text-align: left; width: 30px;} */
 }
 
 @media(max-width:500px){
-    .logo{width: 65%;}
-    .logo img{width: 180px;}
-    .home{width: 35%; gap: 0px ;}
+    .logo img{width: 140px;}
+    .home{gap: 0px; margin: 0 10px;}
 }

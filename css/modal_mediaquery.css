@@ -44,7 +44,7 @@
 } 
 @media(max-height:660px){
     .popup_body{
-        height: calc(660px - 200px);
+        height: calc(560px - 100px);
         overflow-y: auto;
     }
 }
